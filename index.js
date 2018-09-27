@@ -1,9 +1,10 @@
 function dwarfRollCall(dwarfNames) {
+  words='';
   for(var i =0; i < dwarfNames.length; i++) {
-    
-    return (i+1) + '. ' + dwarfNames[i] + ' ' + (i+2) + '. ' + dwarfNames[i+1] + ' ' + (i+3) + '. ' + dwarfNames[i+2] + ' ';
+    words+=  
+   
   }
-  
+   return (i+1) + '. ' + dwarfNames[i] + ' ' + (i+2) + '. ' + dwarfNames[i+1] + ' ' + (i+3) + '. ' + dwarfNames[i+2] + ' ';
 }
 
 //dwarfNames es un array que es aceptado por la funcion dwarfRollCall
