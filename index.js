@@ -68,11 +68,12 @@ function wordswithB (ArrayWords)
 { var Arraywithb=[];
   for(i=0; i<ArrayWords.length ; i++{){
    if(ArrayWords[i].startwith('b')){
-     return Arraywithb..push(ArrayWords[i])
-     
+     Arraywithb=Arraywithb.push(ArrayWords[i]);
    }
    
   }
+  return Arraywithb
+  
 }
   
   
