@@ -40,6 +40,14 @@ function findTheCheese (aliment) {
     if(aliment[i] === 'cheddar') {
       return aliment[i];
     } 
+    
+    if(aliment[i] === 'gouda') {
+      return aliment[i];
+    } 
+    
+    if(aliment[i] === 'camembert') {
+      return aliment[i];
+    } 
   }
   if(aliment !== 'cheddar') {
     return 'no cheese!';
