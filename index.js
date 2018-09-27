@@ -1,5 +1,6 @@
 function dwarfRollCall(dwarfNames) {
   for(var i =0; i < dwarfNames.length; i++) {
+    
     return (i+1) + '. ' + dwarfNames[i] + ' ' + (i+2) + '. ' + dwarfNames[i+1] + ' ' + (i+3) + '. ' + dwarfNames[i+2] + ' ';
   }
   
@@ -68,10 +69,13 @@ function wordswithB (ArrayWords)
 { var Arraywithb=[];
   for(i=0; i<ArrayWords.length ; i++{){
    if(ArrayWords[i].startwith('b')){
-     Arraywithb=Arraywithb.push(ArrayWords[i]);
+      Arraywithb.push(ArrayWords[i]);
+        
+     
    }
    
   }
+  
   return Arraywithb
   
 }
