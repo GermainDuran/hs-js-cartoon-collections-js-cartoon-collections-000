@@ -37,7 +37,9 @@ function longPlaneteerCalls(calls) {
 
 function findTheCheese (aliment) {
   for(var i =0; i < aliment.length; i++) {
-    
+    if(aliment[i] === 'any chesse') {
+      return aliment[i];
+    } 
     
     if(aliment[i] === 'cheddar') {
       return aliment[i];
@@ -61,3 +63,18 @@ function findTheCheese (aliment) {
 //Utilizo un condicional para comparar si lo que tengo en esa posicion del array es igual a la palabra que busco que es cheddar, si se cumple retorno el contenido de ese array en esa posicion
 // sino se encuentra la palabra se termina el ciclo y se cumple el utlimo condicional y retorna no cheese 
 //Solo hago la comparacion con cheddar porque es lo que tiene el index-test.js es lo que espera
+
+function wordswithB (ArrayWords)
+{ var Arraywithb=[];
+  for(i=0; i<ArrayWords.length ; i++{){
+   if(ArrayWords[i].startwith('b')){
+     return Arraywithb..push(ArrayWords[i])
+     
+   }
+   
+  }
+}
+  
+  
+}  
+}
