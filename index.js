@@ -37,6 +37,8 @@ function longPlaneteerCalls(calls) {
 
 function findTheCheese (aliment) {
   for(var i =0; i < aliment.length; i++) {
+    
+    
     if(aliment[i] === 'cheddar') {
       return aliment[i];
     } 
@@ -49,9 +51,9 @@ function findTheCheese (aliment) {
       return aliment[i];
     } 
   }
-  if(aliment !== 'cheddar') {
+  
     return 'no cheese!';
-  }
+  
 }
 
 // la funcion findthecheese acepta un array de string llamado aliment
